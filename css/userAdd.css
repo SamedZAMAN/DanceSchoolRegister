@@ -1,0 +1,52 @@
+
+.container-fluid{
+    margin: 0;
+    display: grid;
+}
+    .container-fluid .row{
+        margin-left: 5vh;
+        
+    }
+        .container-fluid .testbox{
+            border: .5px solid rgba(0, 0, 0, 0.212);
+            margin-right: 5vh;
+            padding: 30px;
+            color: rgb(26, 25, 25);
+            border-radius: 20px;
+            box-shadow: rgba(13, 13, 218, 0.25) 0px 30px 60px -12px inset, rgba(82, 73, 151, 0.3) 0px 18px 36px -18px inset;
+        }
+            .container-fluid h1{
+                border-bottom:3px solid rgba(137, 43, 226, 0.667); 
+                border-radius:10px; 
+                display:inline-block;
+                color: rgba(137, 43, 226, 0.667);
+            }
+            .container-fluid .banner{
+                text-align: center;
+                align-items: center;
+            }
+            .container-fluid .item{
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: space-between;
+            }
+                .container-fluid .name-item{
+                    margin-left: 10vh;
+                    margin-bottom: 2vh;
+                }
+                .container-fluid select,
+                .container-fluid input{
+                    border: 1px solid rgb(32, 32, 100);
+                    border-radius:20px;
+                    padding: 4px;
+                    background-color: transparent;
+                }
+                
+                .container-fluid option{
+                    border-bottom: 1px solid rgb(255, 0, 0);
+                }
+            .container-fluid button{
+                text-align: center;
+                align-items: center;
+            }

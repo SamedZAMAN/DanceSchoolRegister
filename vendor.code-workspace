@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "vendor",
+			"path": "../../../Users/Samed/Desktop/admin panel/vendor"
+		},
+		{
+			"name": "boostrap",
+			"path": "../boostrap"
+		},
+		{
+			"name": "css",
+			"path": "../../../Users/Samed/Desktop/admin panel/css"
+		},
+		{
+			"name": "img",
+			"path": "../../../Users/Samed/Desktop/admin panel/img"
+		},
+		{
+			"name": "js",
+			"path": "../../../Users/Samed/Desktop/admin panel/js"
+		},
+		{
+			"name": "scss",
+			"path": "../../../Users/Samed/Desktop/admin panel/scss"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "boostrap"
+	}
+}

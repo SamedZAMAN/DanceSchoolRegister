@@ -1,0 +1,73 @@
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem , 0.2fr));
+    gap: 1rem;
+}
+
+.card-header {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+} 
+  .card-header button:hover{
+    transform: translateX(-2px);
+  }
+
+.card-container :nth-child(odd) .card-header{
+  color: #e74a3b;
+}
+.card-container :nth-child(odd) .card{
+  background-color: #e74a3b;
+}
+
+.card-container :nth-child(even) .card-header{
+  color: #f6c23e;
+}
+.card-container :nth-child(even) .card{
+  background-color: #f6c23e;
+}
+
+.card-container .class_buttons.hidden{
+  display: none;
+}
+.card-container .class_hidden.active{
+  display: block;
+}
+
+
+
+#new-card {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #new-card input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #new-card button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+/* HİDDEN CARD */
+
+body {
+  background-color: #333;
+}
+
+
+
+
+  

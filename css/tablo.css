@@ -1,0 +1,106 @@
+
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 5%;
+    width: 100%;
+}
+.search .box input,.search .box .bx-search-alt-2{
+    margin-top: 2.2vh;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+
+i{
+    font-size: 1.3em;
+    cursor: pointer;
+    height: 100%;
+}
+
+/* header kısmı  */
+
+#userAdd{
+    font-size: 1.3rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+#userAdd .bxs-user-plus{
+    font-size: 2rem;
+    padding: 5px;
+}
+
+#filt{
+    font-size: 1.3rem;
+    margin-left: 2vh;
+    display: flex;
+    align-items: center;
+}
+#filt .bx-menu{
+    font-size: 1.9rem;
+    padding: 5px;
+}
+
+.table{
+    color: #575758 !important;
+} 
+    .hidden{
+        display: none;
+    }
+    tbody tr:nth-child(odd){
+        background-color: #fff;
+    }
+
+
+/* Filtreler */
+.underln{
+    border-bottom: 2px solid black;
+}
+div #filtreler{
+    position: absolute;
+    transform: translateY(-10000px);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    width: auto;
+}
+#filtreler.open{
+    transform: translateY(0px);
+}
+#filtreler ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30% 10px 5%;
+    list-style: none;
+}
+#filtreler ul li{
+    margin-right: 30px;
+}
+
+#filtreler ul li ol{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-left: 0;
+    list-style: circle;
+}
+
+#filtreler ul li ol li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: circle;
+}
+
+#filtreler ul li ol li input{
+    margin: 0 8px;
+}
+
+
